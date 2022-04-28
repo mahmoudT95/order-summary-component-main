@@ -1,0 +1,178 @@
+@media (min-width: 576px) {  
+  .container{
+   width: 540px;
+  }
+ }
+  
+ @media (min-width: 768px) {  
+   .container{
+     width: 720px;
+   }
+ }
+  
+ @media (min-width: 992px) { 
+   .container{
+     width: 960px;
+   }
+ }
+  
+ @media (min-width: 1200px) {  
+   .container{
+     width: 1140px;
+   }
+ }
+  
+ @media (min-width: 1400px) {  
+   .container{
+     width: 1320px;
+   }
+ }
+ 
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  text-decoration:none
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+img.mainImg {
+  align-items: center;
+  width: -webkit-fill-available;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+p { 
+  font-size: 16px;
+  text-align: center;
+  width: 300px;
+}
+div.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.mainContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 890px;
+  grid-template-rows: 15% 70% 15%;
+  grid-template-columns: 33% 33% 33%;
+}
+div.smallContainer {
+  display: block;
+  background-color: white;
+  border-radius: 25px;
+  
+  grid-row: 2;
+  grid-column: 2;
+}
+div.plan {
+  display: grid;
+  height: 75px;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 100px 100px 100px;
+  align-items: baseline;
+}
+div.mainPlan {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  border-radius: 20px;
+  margin-left: 10%;
+  background-color: hsl(225, 100%, 98%);
+}
+img.music {
+  grid-column: 1;
+  position: absolute;
+  margin-left: 18px;
+  margin-top: 13px;
+}
+.planPeriod {
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 12px;
+  margin-left: -17px;
+  font-weight: 700;
+}
+.price {
+  grid-column: 2;
+  margin-left: -16px;
+  font-weight: lighter;
+}
+.link {
+  grid-column: 3;
+  grid-row: span 2;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 230px;
+}
+a:hover {
+  color: hsl(223, 47%, 23%);
+}
+div.lastStep{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.proceedLink{
+    display: flex;
+    width: 80%;
+    height: 55px;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+}
+.cancelLink{
+    padding-top: 40px;
+
+}
+.aProc{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0deg 0% 100%);
+}
+.aCancel{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+footer{
+    position:absolute;
+   bottom:0;
+   
+   
+   
+}
+.proceedLink:hover{
+    background-color: hsl(224, 23%, 55%);
+   cursor: pointer;
+
+}
+.aProc:hover{
+    color:white;
+}
+.change:hover{
+text-decoration: none;
+}
